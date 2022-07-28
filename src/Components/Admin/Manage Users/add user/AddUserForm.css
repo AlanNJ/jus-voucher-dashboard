@@ -1,0 +1,55 @@
+.add-user-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.add-user-form label{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.add-user-form .add-user-input{
+    padding: 1rem;
+    border: 2px solid #EAB569;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+.add-user-form .btn-submit{
+    width: max-content;
+    padding: 1rem 3rem;
+    background: #023047;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .add-user-form {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .add-user-form label {
+        font-size: 1rem;
+    }
+    .add-user-form .add-user-input {
+        padding: 0.6rem;
+        font-size: 1rem;
+    }
+    .add-user-form .btn-submit {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .add-user-form .add-user-input {
+        padding: 0.6rem;
+        margin: 0.5rem 0;
+    }
+}

@@ -1,0 +1,83 @@
+.home-page-manager{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.home-page-manager .input-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.home-page-manager label{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.home-page-manager .home-input{
+    border: 2px solid #023047;
+    border-radius: 8px;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    resize: none;
+}
+.home-page-manager .btn-submit{
+    background: #023047;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    margin: 2rem auto;
+}
+.home-page-manager .content-preview-wrapper{
+    display: flex;
+    gap: 2rem;
+}
+.home-page-manager .left-section{
+    width: 60%;
+}
+.home-page-manager .right-section{
+    width: 40%;
+}
+.home-page-manager .left-section h1{
+    font-size: 2rem;
+}
+.home-page-manager .left-section .section-para{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+.home-page-manager .about-image{
+    width: 100%;
+    object-fit: cover;
+}
+.home-page-manager .image-two-columns{
+    display: flex;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page-manager {
+        width: 90%;
+    }
+    .home-page-manager label {
+        font-size: 1rem;
+    }
+    .home-page-manager .home-input {
+        border-radius: 6px;
+        padding: 0.7rem;
+        font-size: 1rem;
+    }
+    .home-page-manager textarea.home-input{
+        height: 7rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .manage-users .manage-content {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .home-page-manager {
+        width: 100%;
+    }
+}

@@ -1,0 +1,87 @@
+.testimonial-slider{
+    width: 100%;
+    padding: 4rem 0;
+    overflow: hidden;
+}
+.testimonial-slider-wrapper{
+    display: grid;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.testimonial-slider-card{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    user-select: none;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: flex;
+    flex-direction: column;
+}
+.testimonial-slider-card--active{
+    z-index: 1;
+    transform: scale(1.2);
+}
+.testimonial-slider-description{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.testimonial-slider-description::before{
+    content: "“";
+    font-size: 3rem;
+}
+.testimonial-slider-designation{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+.testimonial-slider-person{
+    margin-top: auto;
+}
+@media only screen and (max-width: 1200px) {
+    .testimonial-slider-description{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .testimonial-slider-description{
+        font-size: 0.9rem;
+    }
+    .testimonial-slider-description::before{
+        content: "“";
+        font-size: 2rem;
+    }.testimonial-slider-card{
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+    .testimonial-slider-person{
+        font-size: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .testimonial-slider{
+        width: 200%;
+        transform: translateX(-25%);
+    }
+    .testimonial-slider-description{
+        font-size: 0.8rem;
+    }
+    .testimonial-slider-description::before{
+        content: "“";
+        font-size: 1.5rem;
+    }.testimonial-slider-card{
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    .testimonial-slider-person{
+        font-size: 0.8rem;
+    }
+    .testimonial-slider-designation{
+        font-size: 0.7rem;
+    }
+}

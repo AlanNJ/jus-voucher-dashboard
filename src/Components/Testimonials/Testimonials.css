@@ -1,0 +1,18 @@
+.testimonials-wrapper{
+    margin-top: 2rem;
+}
+.testimonials-btns-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+.btn-testimonial{
+    padding: 0.8rem 3rem;
+    color: #fff;
+    text-decoration: none;
+    background: #E88561;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+}

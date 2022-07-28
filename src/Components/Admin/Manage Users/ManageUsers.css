@@ -1,0 +1,40 @@
+.manage-users .user-btns-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.manage-users .btn-user{
+    text-decoration: none;
+    color: #fff;
+    background: #023047;
+    padding: 0.8rem 3rem;
+    border-radius: 8px;
+    margin: 1rem 1rem;
+}
+.manage-users .manage-content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .manage-users .btn-user {
+        padding: 0.8rem ;
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+    .manage-users .manage-content {
+        width: 90%;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .manage-users .btn-user {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+}

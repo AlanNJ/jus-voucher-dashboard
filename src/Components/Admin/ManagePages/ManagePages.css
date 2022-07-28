@@ -1,0 +1,64 @@
+.manage-pages{
+    margin-top: 1rem;
+}
+.manage-pages .pages-btns-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.manage-pages .btn-page{
+    background: #023047;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    margin: 0 0.5rem;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.manage-pages .btn-page--active{
+    background: #FBC88F;
+    color: #000;
+}
+.manage-pages .section-btns-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.manage-pages .btn-section{
+    padding: 0.8rem 2rem;
+    background: #023047 ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.manage-pages .btn-section--active{
+    background: #E26739;
+}
+.manage-pages .btn-section:first-child{
+    border-radius: 8px 0 0 8px;
+}
+.manage-pages .btn-section:last-child{
+    border-radius: 0 8px 8px 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .manage-pages .btn-page {
+        padding: 0.8rem 1rem;
+        margin: 0.5rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        width: calc(50% - 1rem);
+    }
+    .manage-pages .pages-btns-wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .manage-pages .btn-section {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
